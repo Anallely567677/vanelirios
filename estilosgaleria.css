@@ -1,0 +1,42 @@
+
+
+#carousel  figure {
+     display :  block ;
+    posición :  absoluta ;
+    ancho :  90 % ;
+    altura :  78 % ;
+    izquierda :  10 px ;
+    superior :  10 px ;
+    fondo :  negro ;
+    desbordamiento :  oculto ;
+    borde :  sólido  5 px  negro ;
+}
+#carousel  figure : nth-child (1) {transform : rotateY ( 0 deg ) translateZ ( 288 px );}
+ #carousel  figure : nth-child (2) {transform : rotateY ( 40 deg ) translateZ ( 288 px );}
+ #  figura del carrusel : nth-child (3) {transformar : rotarY ( 80 grados ) translateZ ( 288 px );}
+ #carousel  figure : nth-child (4) {transformar : rotarY ( 120 grados)) traducir Z ( 288 px );}
+ #  figura de carrusel : nth-child (5) {transformar : rotarY ( 160 grados ) traducirZ ( 288 px );}
+ #carousel  figure : nth-child (6) {transformar : rotarY ( 200 grados ) traducir Z ( 288 px );}
+ #  figura de carrusel : nth-child (7) {transformar : rotarY ( 240 grados ) traducirZ ( 288 px );}
+ #carousel  figure : nth-child(8) {transformar : rotar ( 280 grados ) translateZ ( 288 px );}
+ #  figura de carrusel : nth-child (9) {transformar : rotar ( 320 grados ) traducirZ ( 288 px );}
+ #  figura de carrusel : nth-child (10) {transformar : rotarY ( 360 grados ) translateZ ( 288 px );}
+ # carrusel img {
+    -webkit-filter : escala de grises ( 1 );
+    cursor :  puntero ;
+    transición :  toda  la facilidad de .5 s ;
+    ancho :  90 % ;
+}
+#carousel img : hover {
+    -webkit-filter : escala de grises ( 0 );
+    transformar : escala ( 1.2 , 1.2 );
+}
+rotación de keyframes {
+    desde{
+        transformar : rotarY ( 0 grados );
+    }
+    a{
+        transformar : rotarY ( 360 grados );
+    }
+}
+
